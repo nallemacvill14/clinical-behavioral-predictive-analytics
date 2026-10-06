@@ -1,0 +1,16 @@
+patient_uuid,age,gender,baseline_bmi,psychopy_mean_rt_ms,attentional_bias_score,adherence_rate_pct,intervention_group,treatment_response
+PT-9012,42,F,38.4,412.5,0.78,85.0,Neurobehavioral_CBT,1
+PT-9013,35,M,41.2,580.1,0.92,45.0,Standard_Care,0
+PT-9014,51,F,36.9,435.0,0.61,90.0,Neurobehavioral_CBT,1
+PT-9015,29,F,39.8,510.4,0.85,60.0,Standard_Care,0
+PT-9016,48,M,44.1,620.8,0.95,30.0,Standard_Care,0
+PT-9017,39,F,35.2,390.2,0.52,95.0,Neurobehavioral_CBT,1
+PT-9018,44,F,37.6,445.3,0.69,80.0,Neurobehavioral_CBT,1
+PT-9019,53,M,40.5,560.7,0.88,50.0,Standard_Care,0
+PT-9020,31,F,34.8,380.9,0.48,100.0,Neurobehavioral_CBT,1
+PT-9021,46,M,42.3,595.0,0.91,40.0,Standard_Care,0
+PT-9022,38,F,36.1,420.4,0.58,88.0,Neurobehavioral_CBT,1
+PT-9023,57,F,43.0,610.2,0.94,35.0,Standard_Care,0
+PT-9024,33,M,35.9,405.1,0.55,92.0,Neurobehavioral_CBT,1
+PT-9025,49,F,39.1,495.6,0.81,70.0,Standard_Care,0
+PT-9026,27,F,33.5,365.0,0.42,95.0,Neurobehavioral_CBT,1
