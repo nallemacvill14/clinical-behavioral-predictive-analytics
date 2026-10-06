@@ -1,0 +1,27 @@
+==============================================================================
+POWER BI DAX MEASURES: CLINICAL BEHAVIORAL OPERATIONS DASHBOARD
+==============================================================================
+
+1. Active Enrolled Patients:
+Total Cohort Size = COUNTROWS(clinical_cohort)
+
+2. Clinical Success Rate (%):
+Treatment Success Rate = 
+DIVIDE(
+    CALCULATE(COUNTROWS(clinical_cohort), clinical_cohort[treatment_response] = 1),
+    COUNTROWS(clinical_cohort),
+    0
+)
+
+3. Mean Adherence Percentage:
+Average Adherence Rate = AVERAGE(clinical_cohort[adherence_rate_pct])
+
+4. High Impulsivity / Attentional Bias Alert Count:
+High Attentional Risk Count = 
+CALCULATE(
+    COUNTROWS(clinical_cohort),
+    clinical_cohort[attentional_bias_score] >= 0.80
+)
+
+5. Mean PsychoPy Reaction Time (ms):
+Average Cognitive RT = AVERAGE(clinical_cohort[psychopy_mean_rt_ms])
